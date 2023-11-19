@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@300;600;900&display=swap');
+
+:root {
+    --color-body: #22223b;
+    --color-heading: #4A4E69;
+    --color-base: #9A8C98;
+    --color-base2: #C9ADA7;
+    --color-brand: #F2E9E4;
+    --sidbar-width: 240px;
+    --fontbase: 'Smooch Sans', sans-serif;
+}
+
+body {
+    background-color: var(--color-base);
+    color: var(--color-body);
+    font-family: var(--fontbase);
+}
+
+h1,h2,h3,h4,h5,h6 {
+    color: var(--color-heading);
+    font-weight: 900;
+}
+
+a {
+    text-decoration: none;
+    color: var(--color-body);
+    transition: all 0.4s ease;
+}
+
+a:hover {
+    color: var(--color-brand);
+}
+
+img {
+    width: 100%;
+}
